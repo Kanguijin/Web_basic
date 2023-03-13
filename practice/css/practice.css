@@ -1,0 +1,63 @@
+body {
+    font-size: 12px;
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    z-index: 1000;
+}
+
+.top-ly {
+    height: 81px;
+}
+
+.top-ly h1 {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.top-ly .util {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.top-ly .util li {
+    display: inline-flex;
+    border-right: 1px solid #dbdbdb;
+    padding: 0px 15px;
+}
+
+
+.top-ly .util li.last {
+    border-right: none;
+}
+
+.top-ly .total-search {
+    margin: 0px auto;
+    width: 336px;
+    padding: 20px 0 0 0;
+}
