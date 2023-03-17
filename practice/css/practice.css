@@ -1,10 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-size: 12px;
     height: 100%;
 }
 
+form {
+    display: block;
+}
+
 div {
     display: block;
+}
+
+fieldset {
+    border: none;
 }
 a {
     color: #444;
@@ -60,4 +74,54 @@ ul {
     margin: 0px auto;
     width: 336px;
     padding: 20px 0 0 0;
+}
+
+.top-ly .total-search fieldset {
+    overflow: hidden;
+    position: relative;
+    height: 39px;
+    background: url(../images/search_bg.gif) no-repeat left top;
+}
+
+.top-ly .total-search fieldset .text {
+    width: 260px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    padding: 2px 0px 8px;
+    border: 1px solid #fff;
+}
+
+.top-ly .total-search fieldset .image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.gnb {
+    position: relative;
+    height: 51px;
+}
+
+.gnb li {
+    position: relative;
+    display: inline-flex;
+    background: url(../images/menu_line.gif) no-repeat right 3px;
+}
+
+.gnb li.first a {
+    background: url(../images/menu_line.gif) no-repeat left 3px;
+}
+
+.gnb li a.dep01 {
+    width: 174px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3d3c3c;
+    display: block;
+    padding: 15px 0 0 0;
+    height: 34px;
+    text-align: center;
+    margin-left: 1px;
 }
